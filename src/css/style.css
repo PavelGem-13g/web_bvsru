@@ -174,15 +174,15 @@ body {
 .offers{
     color: black;
     margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(3, 30%);
-    grid-template-rows: repeat(1,250px);
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 .offer__item{
     background-color: #f2f2f2;
     border-radius: 5%;
-    margin: 10px;
-    
+    width: 300px;
 }
 .offer__item-title{
     display: block;
