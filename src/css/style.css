@@ -184,6 +184,40 @@ body {
     border-radius: 5%;
     width: 300px;
 }
+@media (max-width: 1200px){
+    .offers{
+        color: black;
+        margin: 0 auto;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .offer__item{
+        background-color: #f2f2f2;
+        border-radius: 5%;
+        width: 200px;
+        padding: 40px 20px;
+    }
+}
+@media (max-width: 576px){
+    .offers{
+        color: black;
+        margin: 0 auto;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px;
+    }
+    .offer__item{
+        background-color: #f2f2f2;
+        border-radius: 5%;
+        font-size: 10pt;
+    }
+}
 .offer__item-title{
     display: block;
     text-align: center;
